@@ -90,6 +90,11 @@ ul{
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+.nav-appointment-btn:hover{
+    background-color: #0161d2; /* Lighter shade of blue on hover */
+    transform: scale(1.05); /* Slightly scale up the button */
 }
 /*==hero-content==================*/
 .hero-content{
