@@ -901,7 +901,7 @@ footer{
 }
 .footer-bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     grid-gap: 10px;
@@ -912,6 +912,7 @@ footer{
     margin: auto;
 }
 .footer-bottom span{
+
     color: #252525;
     font-size: 0.9rem;
 }
