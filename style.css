@@ -90,6 +90,11 @@ ul{
     font-weight: 500;
     letter-spacing: 1px;
     font-size: 0.9rem;
+    
+}
+.nav-appointment-btn:hover{
+    background-color: #0b2963;
+    
 }
 /*==hero-content==================*/
 .hero-content{
