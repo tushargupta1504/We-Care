@@ -1135,4 +1135,66 @@ footer{
         grid-template-columns: 1fr;
     }
 }
-  
+.testimonials-box-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 1000px;
+    
+}
+
+.feedback-card {
+    background-color: #e0f7fa;
+    border: 1px solid #b2ebf2;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feedback-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.feedback-card p {
+    font-size: 16px;
+    color: #00796b;
+}
+
+.feedback-card h4 {
+    font-size: 14px;
+    color: #004d40;
+    margin-top: 10px;
+}
+
+.live-feedback {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.live-feedback h4 {
+    font-size: 18px;
+    color: #333;
+}
+
+.emoji-container {
+    margin-top: 10px;
+}
+
+.emoji {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: transform 0.2s;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+}
