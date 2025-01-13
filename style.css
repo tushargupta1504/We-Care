@@ -1136,3 +1136,117 @@ footer{
     }
 }
   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f7fb;
+    color: #122853;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .testimonials-heading h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .testimonials-heading p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #535353;
+  }
+  
+  .testimonials-content {
+    margin-top: 30px;
+  }
+  
+  .testimonials-box {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .t-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .t-profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+  }
+  
+  .t-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .t-profile-text strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .t-profile-text span {
+    font-size: 0.9rem;
+    color: #535353;
+  }
+  
+  .t-rating i {
+    color: #ffbc02;
+  }
+  
+  .testimonials-box p {
+    font-size: 0.95rem;
+    color: #535353;
+  }
+  
+  /* Emoji Feedback */
+  .emoji-feedback {
+    margin-top: 30px;
+  }
+  
+  .emoji-feedback h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .emoji-options {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .emoji-btn {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .emoji-btn:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Swiper Pagination */
+  .swiper-pagination {
+    margin-top: 20px;
+  }
+  
