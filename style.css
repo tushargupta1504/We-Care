@@ -1135,4 +1135,18 @@ footer{
         grid-template-columns: 1fr;
     }
 }
-  
+  /* payments */
+.payments img{
+    width:45px;
+    height:45px;
+    margin: 5px;
+    display:inline;
+    aspect-ratio: 4/2;
+    object-fit: contain;
+    mix-blend-mode:darken;
+    
+
+}
+.visa{
+    background-color: white;
+}
