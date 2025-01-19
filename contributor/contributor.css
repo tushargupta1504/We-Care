@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #030303;
+    background: #f2f3f5;
+    overflow-x: hidden; 
+  }
+    
+  
+  
+  h1 {
+    font-size: 3rem;
+    color: #070707;
+    margin: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Contributor Card Grid */
+  .contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: calc(10px + 1vw); 
+    justify-items: center; 
+    align-items: center;
+    width: 100%; 
+  }
+  
+  /* Contributor Card Styling */
+  .contributor-card {
+    background: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .contributor-card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contributor-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #ffcc00; 
+    margin-bottom: 15px;
+  }
+  
+  .contributor-card h3 {
+    font-size: 1.4rem;
+    margin: 10px 0;
+  }
+  
+  .contributor-card a {
+    display: inline-block;
+    margin: 5px 0;
+    color: #ffcc00;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contributor-card a:hover {
+    color: #004e64; 
+    text-decoration: none;
+  }
+  
+  /* Animated Button */
+  .button {
+    background: #004e64;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: transform 0.2s ease, background 0.3s ease;
+    text-transform: uppercase;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+    background: #004e64; 
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  /* Hamburger Menu */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+  
+    
+  
+  .hamburger {
+      display: flex;
+  }
+    .container {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust the grid gap for mobile */
+    .contributors-grid {
+      gap: calc(10px + 2vw); 
+    }
+  }
+  
+  /* Responsive Design for Tablet/Desktop */
+  @media (min-width: 768px) {
+    .contributors-grid {
+      gap: calc(10px + 1.5vw); 
+    }
+  }
+  
+    
+   
+  
+ 
