@@ -1,0 +1,42 @@
+/* General Styles */
+
+  
+  
+  
+  /* Main Section */
+  main {
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  main h1 {
+    color: #0077b6;
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  main h2 {
+    color: #005f87;
+    margin-top: 20px;
+  }
+  
+  main p, main ul {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
+  main ul {
+    padding-left: 20px;
+  }
+  
+  main ul li {
+    margin-bottom: 5px;
+  }
+  
+  
+  
