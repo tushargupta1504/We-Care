@@ -3,16 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contributors Page</title>
-  <link rel="stylesheet" href="contributor.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Testimonials - We Care Medical</title>
+  <link rel="stylesheet" href="../testimonial/testimonial.css">
   <link rel="stylesheet" href="../style.css">
 </head>
-
 <body>
-
- <!--==navigation====================-->
+  <header>
+    <!--==navigation====================-->
  <nav class="navigation">
     <!--**menu-btn*****-->
     <input type="checkbox" class="menu-btn" id="menu-btn">
@@ -21,19 +18,55 @@
     <ul class="menu">
         <li><a href="../index.html#our-team">Find A Doctor</a></li>
         <li><a href="../index.html#our-services">Our Services</a></li>
-        <li><a href="../testimonial/testimonial.html">Testimonials</a></li> <!-- Corrected spelling -->
+        <li><a href="../index.html#testimonials">Testimonials</a></li> <!-- Corrected spelling -->
     </ul>
     <a href="#" class="nav-appointment-btn">Appointment</a>
 </nav><!--nav-end-->
- 
-  <div class="container">
-    <h1>Meet Our Contributors</h1>
-    <div id="contributors" class="contributors-grid"></div>
-  </div>
+  </header>
 
+  <main id="testimonials">
+    <h1>What Our Patients Say</h1>
+    <p>We are proud to have positively impacted the lives of so many. Read what our patients have to say about their experiences with us.</p>
+    
+    <div class="testimonial">
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="John Doe's Picture">
+      <div class="testimonial-content">
+        <h2>John Doe</h2>
+        <p><strong>Condition:</strong> Cardiac Surgery</p>
+        <p>"The cardiology team at We Care Medical saved my life. Their expertise and care were phenomenal, and I recovered faster than expected. I’m forever grateful!"</p>
+      </div>
+    </div>
 
-   <!-- footer here -->
-   <footer>
+    <div class="testimonial">
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jane Smith's Picture">
+      <div class="testimonial-content">
+        <h2>Jane Smith</h2>
+        <p><strong>Condition:</strong> Skin Allergy</p>
+        <p>"The dermatology department was amazing! They diagnosed my skin condition accurately and provided a treatment that worked wonders."</p>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Rohan Mehta's Picture">
+      <div class="testimonial-content">
+        <h2>Rohan Mehta</h2>
+        <p><strong>Condition:</strong> Pediatric Care</p>
+        <p>"The pediatricians at We Care Medical were so kind and patient with my son. Their approach to treatment made him comfortable and happy. Thank you!"</p>
+      </div>
+    </div>
+
+    <div class="testimonial">
+      <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Ana Garcia's Picture">
+      <div class="testimonial-content">
+        <h2>Ana Garcia</h2>
+        <p><strong>Condition:</strong> Nutrition Guidance</p>
+        <p>"Thanks to the nutrition experts, I achieved my health goals and improved my overall well-being. Highly recommended!"</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- footer here -->
+  <footer>
     <div class="footer-container">
         <!--**comoany-box**-->
         <div class="footer-company-box">
@@ -97,7 +130,5 @@
         <p>&copy; 2025 WeCare. All rights reserved.</p>
     </div>
 </footer>
-
-  <script src="contributor.js"></script>
 </body>
 </html>
