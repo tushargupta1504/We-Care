@@ -1,8 +1,7 @@
 https://tushargupta1504.github.io/Healtg/ https://tushargupta1504.github.io/We-Care/
 # We Care - Your Health, Our Priority! 💙
 
-![We Care Banner]!![image_2025-01-29_231646851](![image_2025-01-29_232252623](https://github.com/user-attachments/assets/9b612056-a79c-41d1-b21c-8fdfc3e179e3)
-)
+![We Care Banner]![image_2025-01-29_232504344](https://github.com/user-attachments/assets/94f7ee54-a137-4fe1-8785-05f1c76c3818)
 
 
 ## Overview
