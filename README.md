@@ -81,7 +81,6 @@ We welcome contributions to enhance **We Care**! Follow these steps to contribut
 ![We Care UI]!
 ![Screenshot 2025-01-29 231929](https://github.com/user-attachments/assets/aa9c18df-de58-4680-888c-f99ce2a33ea6)
 
-![Screenshot 2025-01-29 231031](https://github.com/user-attachments/assets/f8dc5c0f-97fd-4247-b4bc-7868950add3b)
 
 ## 👨‍💻 Contributors
 
