@@ -1,7 +1,8 @@
 https://tushargupta1504.github.io/Healtg/ https://tushargupta1504.github.io/We-Care/
 # We Care - Your Health, Our Priority! 💙
 
-![We Care Banner](https://your-image-link.com/banner.png)
+![We Care Banner]![image_2025-01-29_230851673](https://github.com/user-attachments/assets/7d0f5a10-1a74-4b11-9919-4510e0ca106a)
+
 
 ## Overview
 
@@ -20,18 +21,12 @@ https://tushargupta1504.github.io/Healtg/ https://tushargupta1504.github.io/We-C
 
 ## 🚀 Tech Stack
 
-### **Frontend**
 - **HTML** – Structuring web pages
 - **CSS** – Styling the UI/UX
 - **JavaScript** – Adding interactivity
 - **Font Awesome** – Icons & UI enhancements
 - **Swiper.js** – Responsive sliders & carousels
-- **Chatbot Integration** – AI-powered assistant using Dialogflow/Rasa
-
-### **Backend (Planned Enhancements)**
-- **Node.js & Express.js** – For API and backend services
-- **MongoDB** – For storing user and medical data securely
-- **JWT Authentication** – Ensuring secure login & user authentication
+- **Chatbot Integration** – AI-powered assistant
 
 ## 🤖 HealthAssistant Chatbot
 
@@ -83,15 +78,15 @@ We welcome contributions to enhance **We Care**! Follow these steps to contribut
 
 ## 📸 Screenshots & Diagrams
 
-🚀 Showcase platform interface, chatbot interactions, and user dashboard with images.
+![We Care UI]![image_2025-01-29_231103853](https://github.com/user-attachments/assets/64080107-b738-4dda-8325-b2b84db463bc)
 
-![We Care UI](https://your-image-link.com/ui-screenshot.png)
 
 ## 👨‍💻 Contributors
 
 A huge thanks to all our contributors for making **We Care** better! ❤️
 
-[![contributors](https://contrib.rocks/image?repo=tushargupta1504/We-Care)](https://github.com/tushargupta1504/We-Care/graphs/contributors)
+[![contributors]![Screenshot 2025-01-29 231031](https://github.com/user-attachments/assets/158fdbc4-f1f2-4407-bb6a-79e06006893f)
+(https://contrib.rocks/image?repo=tushargupta1504/We-Care)](https://github.com/tushargupta1504/We-Care/graphs/contributors)
 
 ## 📜 License & Credits
 
