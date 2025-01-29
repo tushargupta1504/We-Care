@@ -1,7 +1,8 @@
 https://tushargupta1504.github.io/Healtg/ https://tushargupta1504.github.io/We-Care/
 # We Care - Your Health, Our Priority! 💙
 
-![We Care Banner]!![image_2025-01-29_231646851](https://github.com/user-attachments/assets/d17441a8-df84-4123-b5e3-5baeb7fa7b22)
+![We Care Banner]!![image_2025-01-29_231646851](![image_2025-01-29_232252623](https://github.com/user-attachments/assets/9b612056-a79c-41d1-b21c-8fdfc3e179e3)
+)
 
 
 ## Overview
@@ -78,15 +79,16 @@ We welcome contributions to enhance **We Care**! Follow these steps to contribut
 
 ## 📸 Screenshots & Diagrams
 
-![We Care UI]![image_2025-01-29_231103853](https://github.com/user-attachments/assets/64080107-b738-4dda-8325-b2b84db463bc)
-![Screenshot 2025-01-29 231031](https://github.com/user-attachments/assets/17f10a36-fd59-40f0-9f16-50df9be71ab4)
+![We Care UI]!
+![Screenshot 2025-01-29 231929](https://github.com/user-attachments/assets/aa9c18df-de58-4680-888c-f99ce2a33ea6)
+
+![Screenshot 2025-01-29 231031](https://github.com/user-attachments/assets/f8dc5c0f-97fd-4247-b4bc-7868950add3b)
 
 ## 👨‍💻 Contributors
 
 A huge thanks to all our contributors for making **We Care** better! ❤️
 
 [![contributors](https://contrib.rocks/image?repo=tushargupta1504/We-Care)](https://github.com/tushargupta1504/We-Care/graphs/contributors)
-(https://contrib.rocks/image?repo=tushargupta1504/We-Care)](https://github.com/tushargupta1504/We-Care/graphs/contributors)
 
 ## 📜 License & Credits
 
