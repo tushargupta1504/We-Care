@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - We Care Medical</title>
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../form/signup.css">
+  <link rel="stylesheet" href="../form/form.css">
 </head>
 <body>
   <header>
@@ -18,7 +18,8 @@
     <ul class="menu">
         <li><a href="../index.html#our-team">Find A Doctor</a></li>
         <li><a href="../index.html#our-services">Our Services</a></li>
-        <li><a href="../index.html#testimonials">Testimonials</a></li> <!-- Corrected spelling -->
+        <li><a href="../index.html#testimonials">Testimonials</a></li>
+        <img src="../images/moon.png" id="mode" alt="Change mode" title="change mode"> <!-- Corrected spelling -->
     </ul>
     <a href="#" class="nav-appointment-btn">Appointment</a>
 </nav><!--nav-end-->
@@ -39,7 +40,7 @@
         <input type="password" id="password" name="password" placeholder="Enter your password" required>
       </div>
 
-      <button type="submit">Login</button>
+      <button type="submit" id="submit" onclick="alert( `${email.value}, Your Login is successful.\n Thanks for Login.`)">Login</button>
       <p class="extra-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
     </form>
   </main>
@@ -109,5 +110,6 @@
         <p>&copy; 2025 WeCare. All rights reserved.</p>
     </div>
 </footer>
+<script src="../script.js"></script>
 </body>
 </html>
