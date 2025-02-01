@@ -1,9 +1,15 @@
 *{
     margin: 0px;
+    
     padding: 0px;
     font-family: poppins;
     box-sizing: border-box;
     scroll-behavior: smooth;
+}
+
+body{
+    background-color: #ffffff;
+    
 }
 a{
     text-decoration: none;
@@ -35,7 +41,7 @@ ul{
 /*==hero========================*/
 #hero{
     min-height: 600px;
-    background-color: #f5f7fb;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,7 +62,7 @@ ul{
 }
 .logo span{
     background-color: #014dd5;
-    color: #ffffff;
+    
     padding: 0px 5px;
     border-radius: 5px;
     font-weight: 600;
@@ -83,7 +89,7 @@ ul{
     padding: 0px 20px;
     border-radius:4px;
     background-color: #014dd5;
-    color: #ffffff;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,7 +149,7 @@ ul{
     height: 45px;
     padding: 0px 15px;
     background-color: #122853;
-    color: #ffffff;
+   
     border-radius: 4px;
     margin-right: 10px;
     display: flex;
@@ -162,7 +168,7 @@ ul{
     border-radius: 50%;
     background-color: #014dd5;
     margin-right: 8px;
-    color: #ffffff;
+    
     font-size: 0.5rem;
     padding-bottom: 1px;
 }
@@ -370,7 +376,7 @@ ul{
 #our-services{
     width: 100%;
     margin: 50px auto 0px auto;
-    background-color: #f5f7fb;
+    
     padding: 50px 0px;
     display: flex;
     flex-direction: column;
@@ -457,7 +463,7 @@ ul{
 }
 .service-box a{
     height: 45px;
-    background-color: #122853;
+    
     color: #ffffff;
     padding: 0px 20px;
     display: flex;
@@ -653,7 +659,7 @@ ul{
     flex-direction: column;
 }
 .team-img{
-    background-color: #f5f7fb;
+    
     padding: 10px 10px 0px 10px;
     border-radius: 10px;
     height: 300px;
@@ -685,7 +691,7 @@ ul{
 }
 /*==Testimonials=============================*/
 #testimonials{
-    background-color: #f5f7fb;
+    
     padding: 50px 0px;
     width: 100%;
     display: flex;
@@ -813,7 +819,7 @@ ul{
 .subscribe-box{
     max-width: 600px;
     width: 100%;
-    background-color: #ffffff;
+    
     border-radius: 4px;
     height: 50px;
     display: flex;
@@ -843,7 +849,7 @@ ul{
 /*==footer================================*/
 footer{
     width: 100%;
-    background-color:  #f5f7fb;
+    
 }
 .footer-container{
     max-width: 1200px;
@@ -945,7 +951,7 @@ footer{
     }
     .hero-text{
         margin-bottom: 40px;
-        background-color: #ffffff;
+        
         padding: 30px;
         margin-top: 0px;
     }
@@ -971,7 +977,7 @@ footer{
         position: absolute;
         left: 0px;
         top:100%;
-        background-color: #ffffff;
+        
         width: 100%;
         padding: 0px;
         margin: 0px;
@@ -983,7 +989,7 @@ footer{
         position: absolute;
         left: 0px;
         top: -100%;
-        background-color: #ffffff;
+       
         width: 100%;
         height: 100%;
     }
@@ -1154,6 +1160,4 @@ footer{
     
 
 }
-.visa{
-    background-color: white;
-}
+
