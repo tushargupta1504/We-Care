@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Appointment - We Care Medical</title>
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="../form/signup.css">
+  <link rel="stylesheet" href="../form/form.css">
 </head>
 <body>
   <header>
@@ -76,7 +76,7 @@
         <textarea id="notes" name="notes" placeholder="Add any specific details or health concerns..." rows="4"></textarea>
       </div>
 
-      <button type="submit">Book Appointment</button>
+      <button type="submit" id="submit" onclick="alert( `Appointment of ${fullName.value} is successful.\n Thanks for booking Appointment.`)">Book Appointment</button>
     </form>
   </main>
 
