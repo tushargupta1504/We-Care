@@ -2,8 +2,8 @@ const mode=document.getElementById("mode");
 mode.onclick=function(){
     document.body.classList.toggle("dark-mode");
     if(document.body.classList.contains("dark-mode")){
-        mode.src="images/sun.png";
+        mode.src="../images/sun.png";
     }else{
-        mode.src="images/moon.png ";
+        mode.src="../images/moon.png ";
     }
 }
