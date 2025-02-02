@@ -1,0 +1,20 @@
+var tl = gsap.timeline()
+tl.from(".logo",{
+    opacity:0,
+    y:-30,
+    delay:1,
+    duration:1,
+    stagger:0.2
+})
+tl.from(".menu",{
+    opacity:0,
+    duration:1,
+    y:-30,
+    stagger:0.2
+})
+tl.from(".nav-appointment-btn",{
+    opacity:0,
+    duration:1,
+    y:-30,
+    stagger:0.2
+})
