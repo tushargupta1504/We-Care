@@ -122,6 +122,7 @@ ul{
     max-height: 450px;
     object-fit: contain;
     object-position: center bottom;
+    border: 5px solid black;
 }
 .hero-text{
    display: flex;
@@ -158,6 +159,7 @@ ul{
     font-size: 0.9rem;
     letter-spacing: 0.5px;
     font-weight: 500;
+    border: 3px solid black;
 }
 .hero-text-btns a i{
     width: 18px;
@@ -203,7 +205,7 @@ ul{
     background-color: #f7fbff;
     padding: 15px;
     border-radius: 4px;
-    border: 1px solid #e4e4e4;
+    border: 3px solid black;
 }
 .appo-search-box i{
     color: #535353;
@@ -223,6 +225,7 @@ ul{
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
+    border: 3px solid black;
 }
 /*==what-we-provide===============*/
 .what-we-provide{
@@ -236,6 +239,7 @@ ul{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 .w-info-icon{
     width: 60px;
@@ -246,6 +250,7 @@ ul{
     border-radius: 5px;
     margin-right: 15px;
     font-size: 1.4rem;
+    border: 3px solid black;
 }
 .w-info-text{
     display: flex;
@@ -289,6 +294,7 @@ ul{
     height: 100%;
     object-fit: cover;
     object-position: center;
+    border: 5px solid black;
 }
 .story-play-btn{
     position: absolute;
@@ -362,15 +368,19 @@ ul{
 }
 .s-n-box1{
     background-color: #d4dfff;
+    border: 5px solid black;
 }
 .s-n-box2{
     background-color: #d4e7ff;
+    border: 5px solid black;
 }
 .s-n-box3{
     background-color: #ffd4fd;
+    border: 5px solid black;
 }
 .s-n-box4{
     background-color: #d7d4ff;
+    border: 5px solid black;
 }
 /*==our-services=====================*/
 #our-services{
@@ -488,16 +498,24 @@ ul{
 }
 
 .s-box1{
-    background-color: #ecf6fd;
+    background-color: #cae3f5;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 .s-box2{
-    background-color: #edfff3;
+    background-color: #bfe4cb;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 .s-box3{
-    background-color: #fff0ee;
+    background-color: #efd8d5;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 .s-box4{
     background-color: #fcffcf;
+    border: 5px solid black;
+    border-radius: 10px;
 }
 .service-btn{
     color: #535353;
@@ -671,6 +689,8 @@ ul{
     height: 95%;
     object-fit: contain;
     object-position: center bottom;
+    border-radius: 10px;
+    border: 5px solid black;
 }
 .team-text{
     display: flex;
@@ -737,6 +757,7 @@ ul{
     max-height: 450px;
     object-fit: contain;
     object-position: center;
+    border: 5px solid black;
 }
 .testimonials-box-container{
     margin-top: 50px;
@@ -807,6 +828,7 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 5px solid black;
 }
 #subscribe h3{
     font-size: 2.6rem;
@@ -888,6 +910,7 @@ footer{
     color: #333333;
     font-size: 0.9rem;
     transition: all ease 0.3s;
+    border: 3px solid black;
 }
 .footer-social a:hover{
     background-color: #122853;
