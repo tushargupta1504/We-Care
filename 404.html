@@ -1,0 +1,194 @@
+<!--DOCTYPE html-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==title========================-->
+    <title>Medical Website HTML</title>
+    <link rel="shortcut icon" href="images/fav-icon.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+<script src="//code.tidio.co/2bcyk3yv8valyxfpbxax1z46ruqnn5aa.js" async></script>
+
+<body>
+
+    <!--==Hero-Section========================-->
+    <section id="hero">
+
+        <!--==navigation====================-->
+        <nav class="navigation">
+            <!--**menu-btn*****-->
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon"><span class="nav-icon"></span></label>
+            <a href="index.html" class="logo"><span>We</span>Care</a>
+            <ul class="menu">
+                <li><a href="#our-team">Find A Doctor</a></li>
+                <li><a href="#our-services">Our Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li> <!-- Corrected spelling -->
+            </ul>
+            <a href="#" class="nav-appointment-btn">Appointment</a>
+        </nav><!--nav-end-->
+        <!--==Subscribe===========================-->
+    <section id="subscribe">
+        <h3>GO back to home .</h3>
+        <!--subcribe-box-->
+        <a href="index.html"><img src="images/404-error.gif" alt="error page" title="error 404">
+    </section><!--end-->
+
+
+
+
+
+
+    <!--==Subscribe===========================-->
+    <section id="subscribe">
+        <h3>Subscribe For New Updates From WeCare</h3>
+        <!--subcribe-box-->
+        <form class="subscribe-box">
+            <input type="email" placeholder="Example@gmail.com">
+            <button>Subscribe</button>
+        </form>
+    </section><!--end-->
+
+
+    <footer>
+        <div class="footer-container">
+            <!--**comoany-box**-->
+            <div class="footer-company-box">
+                <!--logo-->
+                <a href="#" class="logo"><span>We</span>Care</a>
+                <!--details-->
+                <p> </p>
+                <!--social-box-->
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <br />
+                <div class="payments">
+                    <h5>we accept</h5>
+                    <a href="https://pay.google.com/intl/en_in/about/"><img src="./payments_img/G pay.png"
+                            alt="G pay"></a>
+                    <a href="https://www.visa.com.au/en_au/account/login"><img src="./payments_img/visa pay.jpg"
+                            class="visa" alt="visa pay"></a>
+                    <a href="https://redemption.mastercard.com/#/user/login?language=en-US"><img
+                            src="./payments_img/master card.jpg"></a>
+                    <a href="https://www.apple.com/apple-pay/"><img src="./payments_img/apply pay.jpg"
+                            alt="apple pay"></a>
+
+                </div>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>Main Link's</strong>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#our_story">About</a></li>
+                    <li><a href="contact/contact.html">Contact</a></li>
+                    <li><a href="#our-services">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+            <!--**link-box***-->
+            <div class="footer-link-box">
+                <strong>External Link's</strong>
+                <ul>
+                    <li><a href="#">Our Product's</a></li>
+                    <li><a href="privacy/privacy.html">Privacy Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="terms/terms.html">Term's and Condition's</a></li>
+                </ul>
+            </div>
+
+
+
+
+        </div>
+
+        <!--**bottom**********************-->
+        <div class="footer-bottom">
+            <ul class="footer-links">
+                <li><a href="#our-team">Find A Doctor</a></li>
+                <li><a href="#our-services">Our Services</a></li>
+                <!-- Removed duplicate links -->
+                <li><a href="#testimonials">Testimonials</a></li> <!-- Corrected spelling -->
+                <li><a href="contributor/contributor.html">Creators</a></li>
+            </ul>
+            <p>&copy; 2025 WeCare. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- GSAP CDN SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        /*-services--*/
+        var swiper = new Swiper(".mySwiperservices", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                700: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+        });
+        /*--team--*/
+        var swiper = new Swiper(".mySwiperteam", {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            breakpoints: {
+                560: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                950: {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+                1250: {
+                    slidesPerView: 4,
+                    spaceBetween: 40,
+                },
+            },
+        });
+        /*--testimonials--*/
+        var swiper = new Swiper(".mySwipertesti", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+
+</body>
+
+</html>
